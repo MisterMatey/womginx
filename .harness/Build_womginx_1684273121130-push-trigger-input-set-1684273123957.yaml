@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_womginx_1684273121130-push-trigger-input-set
+  identifier: Build_womginx_1684273121130pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_womginx_1684273121130
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
