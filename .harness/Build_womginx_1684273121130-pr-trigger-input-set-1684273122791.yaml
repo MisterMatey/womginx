@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_womginx_1684273121130-pr-trigger-input-set
+  identifier: Build_womginx_1684273121130prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_womginx_1684273121130
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
